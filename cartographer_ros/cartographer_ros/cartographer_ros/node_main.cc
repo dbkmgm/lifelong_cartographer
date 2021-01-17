@@ -145,7 +145,7 @@ void Run() {
   std::string output_name = (std::string)ch;
   std::string output_name_pbstream = (std::string)ch;
   output_name = "/home/zh/data/map/" + output_name;
-  output_name_pbstream = "/home/zh/data/map/" + output_name_pbstream + ".pbstream";
+  output_name_pbstream = "/home/zh/data/map/" + output_name_pbstream + ".bag.pbstream";
 
   std::string pbstream_filename = output_name_pbstream; 
   std::string map_filename = output_name;
